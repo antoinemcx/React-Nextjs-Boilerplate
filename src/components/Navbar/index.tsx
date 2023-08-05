@@ -38,7 +38,7 @@ const Navbar = () => {
 
                     <div
                         className={`fixed md:relative items-start md:items-center space-y-4 md:space-y-0 px-10 md:px-0 ${
-                            open ? 'top-[12vh] h-[95vh]' : 'top-[-15vh]'
+                            open ? 'top-[12vh] h-[95vh]' : 'top-[-25vh]'
                         } w-[100vw] md:h-auto md:w-auto left-0 md:left-auto flex-col flex md:gap-4 md:flex-row md:top-0 bg-background75 backdrop-blur-md transition-all duration-200 ease-in`}>
                         <div className="hidden md:block">
                             <ThemeToggle />
