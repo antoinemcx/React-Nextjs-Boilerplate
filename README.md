@@ -52,7 +52,37 @@ For a better developer experience :
 
 ## 📸 Screenshots
 
-[Click here](/docs/screenshots.md) to preview the application once launched
+_Click on each arrow to see the screenshots :_
+
+<details>
+    <summary>Home page (dark)</summary>
+    <img src="docs/images/home-page.png" alt="Home Page (dark)">
+</details>
+
+<details>
+    <summary>Home page (light)</summary>
+    <img src="docs/images/home-page-lightMode.png" alt="Home page (light)">
+</details>
+
+<details>
+    <summary>Home page (mobile)</summary>
+    <img src="docs/images/home-page-mobile.png" alt="Home page (mobile)">
+</details>
+
+<details>
+    <summary>Error page</summary>
+    <img src="docs/images/error-page.png" alt="Error Page">
+</details>
+
+<details>
+    <summary>Login page</summary>
+    <img src="docs/images/login-page.png" alt="Login Page">
+</details>
+
+<details>
+    <summary>Register page</summary>
+    <img src="docs/images/register-page.png" alt="Register Page">
+</details>
 
 <br>
 
@@ -77,8 +107,9 @@ yarn install
 pnpm install
 ```
 
-### 3. Database
+### 3. Database Setup
 
+This template uses a database for the authentication of next-auth.  
 Create the MySQL/MariaDB database and insert the database URL in the **.env** file.<br>
 
 ![](https://i.imgur.com/ALeKvsf.png 'Creating a database on phpMyAdmin')
@@ -118,9 +149,9 @@ Now open [http://localhost:3000](http://localhost:3000) with your favorite brows
 
 ## 📄 Documentation
 
--   [Configuration](/docs/CONFIGURATION.md) : Guide for getting the **.env** values
+-   [Configuration](/docs/CONFIGURATION.md) : Guide for getting the values for the **.env** file
 -   [Cleaning](/docs/CLEANING.md) : Files to remove to be ready to code
--   [Prisma migrations](/docs/prisma_migrations.md) : How to create migration files for your database
+-   [Prisma migrations](/docs/prisma_migrations.md) : How to create and manage migration files for your database using Prisma
 
 ## 🛠 Scripts
 
@@ -139,3 +170,5 @@ In development, you will mainly use `yarn dev` ; however, here are all the scrip
 
 For any errors found, please contact me [here](https://discord.gg/G6WQsMQShZ) or do a pull request.  
 This repository is licensed under the MIT License. See the `LICENSE` file ([here](LICENSE)) for more information.
+
+### Made with ❤️ by [antoinemcx](https://github.com/antoinemcx) in TypeScript.
