@@ -58,11 +58,15 @@ const Navbar = () => {
                         {session ? (
                             <>
                                 {/* Protected pages */}
-                                <Link
-                                    href="/admin"
-                                    className={buttonVariants({ variant: 'navbarLink' })}>
-                                    Admin
-                                </Link>
+                                {session.user.role === 'ADMIN' && (
+                                    <Link
+                                        href="/admin"
+                                        className={buttonVariants({
+                                            variant: 'navbarLink',
+                                        })}>
+                                        Admin
+                                    </Link>
+                                )}
 
                                 <div className="hidden md:block">
                                     <UserAccountNav user={session.user} />
