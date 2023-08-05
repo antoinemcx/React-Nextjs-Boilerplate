@@ -1,6 +1,6 @@
-<h1 align="center">🚀 React-Next-Boilerplate</h1>
+<h1 align="center">🚀 React-Nextjs-Boilerplate</h1>
 <p align="center">
-    Starter <a href="https://nextjs.org/">Next.js</a> (13+) template by <a href="https://github.com/antoinemcx">antoinemcx</a> for your React projects.<br />
+    Starter <a href="https://nextjs.org/">Next.js</a> (13+) template for your React projects.<br />
     If you like the project, feel free to put a ⭐ ! If you need help, join the <a href="https://discord.gg/G6WQsMQShZ">server support</a>.
 </p>
 
@@ -8,11 +8,11 @@
 
 <p align="center">
     <a title="MIT License" href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License"></a>
-    <a title="CodeFactor" href="https://www.codefactor.io/repository/github/antoinemcx/react-next-boilerplate">
-        <img src="https://www.codefactor.io/repository/github/antoinemcx/react-next-boilerplate/badge?s=43c831446aa35c582b59889535956653cb53a8b6" alt="CodeFactor">
+    <a title="CodeFactor" href="https://www.codefactor.io/repository/github/antoinemcx/react-nextjs-boilerplate">
+        <img src="https://www.codefactor.io/repository/github/antoinemcx/react-nextjs-boilerplate/badge" alt="CodeFactor">
     </a>
-    <a title="Stars" href="[LICENCE](https://github.com/antoinemcx/React-Next-Boilerplate)">
-        <img src="https://img.shields.io/github/stars/antoinemcx/React-Next-Boilerplate" alt="Stars">
+    <a title="Stars" href="[LICENCE](https://github.com/antoinemcx/react-nextjs-boilerplate)">
+        <img src="https://img.shields.io/github/stars/antoinemcx/react-nextjs-boilerplate" alt="Stars">
     </a>
     <a title="Support server" href="https://discord.gg/G6WQsMQShZ">
         <img src="https://img.shields.io/discord/738122381062832180.svg?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2&label=Support" alt="Support server">
@@ -61,7 +61,7 @@ For a better developer experience :
 ### 1. Clone the repository
 
 ```bash
-git clone --depth=1 https://github.com/react-next-boilerplate/react-next-boilerplate.git <YOUR_PROJECT_NAME>
+git clone --depth=1 https://github.com/React-Nextjs-Boilerplate/React-Nextjs-Boilerplate.git <YOUR_PROJECT_NAME>
 cd <YOUR_PROJECT_NAME>
 ```
 
@@ -120,6 +120,7 @@ Now open [http://localhost:3000](http://localhost:3000) with your favorite brows
 
 -   [Configuration](/docs/CONFIGURATION.md) : Guide for getting the **.env** values
 -   [Cleaning](/docs/CLEANING.md) : Files to remove to be ready to code
+-   [Prisma migrations](/docs/prisma_migrations.md) : How to create migration files for your database
 
 ## 🛠 Scripts
 
