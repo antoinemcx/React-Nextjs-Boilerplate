@@ -91,7 +91,7 @@ _Click on each arrow to see the screenshots :_
 ### 1. Clone the repository
 
 ```bash
-git clone --depth=1 https://github.com/React-Nextjs-Boilerplate/React-Nextjs-Boilerplate.git <YOUR_PROJECT_NAME>
+git clone --depth=1 https://github.com/antoinemcx/React-Nextjs-Boilerplate.git <YOUR_PROJECT_NAME>
 cd <YOUR_PROJECT_NAME>
 ```
 
