@@ -1,6 +1,6 @@
 <h1 align="center">🚀 React-Nextjs-Boilerplate</h1>
 <p align="center">
-    Starter <a href="https://nextjs.org/">Next.js</a> (13+) template for your React projects.<br />
+    Starter <a href="https://nextjs.org/">Next.js</a> (14+) template for your React projects.<br />
     If you like the project, feel free to put a ⭐ ! If you need help, join the <a href="https://discord.gg/G6WQsMQShZ">server support</a>.
 </p>
 
